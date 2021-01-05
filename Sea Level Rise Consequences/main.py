@@ -115,12 +115,12 @@ def pop_displaced_func() -> None:
 window.title("CSC110 Final Project")
 
 greeting = Label(window, text='Welcome to our CSC110 Final Project!')
-instructions = Label(window, text="To get started, enter a year after 2013 "
-                                  "\n and a co2 emissions per year in metric tonnes greater than 1"
-                                  "\n (note that the co2 emissions in 2013 was 35k).")
-year_prompt = Label(window, text="Input Year")
+instructions = Label(window, text="To get started, please enter a year after 2013 "
+                                  "\n and a CO2 emissions per year in metric tonnes greater than 1"
+                                  "\n (note that the CO2 emissions in 2013 was 35k).")
+year_prompt = Label(window, text="Input Year to Simulate Until")
 year = Entry(window)
-co2_prompt = Label(window, text="Input Co2/year")
+co2_prompt = Label(window, text="Input CO2/year (metric tonnes)")
 co2 = Entry(window)
 start_button = Button(window, text="Start", padx=50, command=start_function)
 second_instructions = Label(window, text="\n The following buttons will open choropleth maps"
