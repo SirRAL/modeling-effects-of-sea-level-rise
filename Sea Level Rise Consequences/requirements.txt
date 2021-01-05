@@ -1,0 +1,14 @@
+# CSC110 Fall 2020: Libraries
+
+# Testing and code checking
+pytest
+python-ta
+
+# Final project libraries
+plotly
+pandas
+sklearn
+numpy==1.19.3
+tkinter
+typing
+
