@@ -8,7 +8,7 @@ python-ta
 plotly
 pandas
 sklearn
-numpy==1.19.3
+numpy==1.22.0
 tkinter
 typing
 
